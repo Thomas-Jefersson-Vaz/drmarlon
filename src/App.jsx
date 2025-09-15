@@ -33,7 +33,7 @@ function App() {
                 <div className={'mt-10 lg:mt-0 lg:ml-10'}>
                     {/* Replace 'path-to-your-image.jpg' with the actual path to the doctor's image */}
                     <img
-                        src="/src/assets/DrMarlon.png"
+                        src="./assets/DrMarlon.png"
                         alt="Dr. Marlon Câmara Lopes"
                         className={'rounded-full object-cover w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 border-4 border-gray-700'}
                     />
@@ -42,5 +42,6 @@ function App() {
         </div>
     );
 }
+
 
 export default App;
